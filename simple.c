@@ -16,7 +16,7 @@
 
 #include <ufw/compiler.h>
 
-#include "simple.pb.h"
+#include <simple.pb.h>
 
 int
 main(UNUSED int argc, UNUSED char *argv[])
