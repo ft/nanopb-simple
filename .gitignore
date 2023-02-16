@@ -4,6 +4,7 @@
 *~
 \#*\#
 \#*
+*.log
 *.o
 *.a
 tags
@@ -17,3 +18,5 @@ GSYMS
 GTAGS
 build-*/
 build/
+ci-*/
+ci/
