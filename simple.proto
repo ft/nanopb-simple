@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message SimpleMessage {
+    required sint32 number = 1;
+    required uint64 unsigned_number = 2;
+    required double floating_number = 3;
+}
+

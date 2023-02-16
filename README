@@ -1,0 +1,8 @@
+Hello World for NanoPB using UFW and MMH.
+
+This is a slightly extended version of the simple example from nanopb, building
+via CMake with toolchains from UFW and building via makemehappy. Try:
+
+   % mmh -d ci
+
+You'll need makemehappy: https://github.com/ft/makemehappy

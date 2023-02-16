@@ -1,0 +1,16 @@
+name: nanopb-simple
+
+dependencies:
+  - name: ufw
+    revision: v3.3.0
+  - name: nanopb
+    revision: 0.4.7
+
+toolchains:
+  - name: gnu
+    architecture: native
+  - name: clang
+    architecture: native
+
+buildtools:
+  - ninja
