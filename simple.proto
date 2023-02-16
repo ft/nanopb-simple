@@ -5,4 +5,3 @@ message SimpleMessage {
     required uint64 unsigned_number = 2;
     required double floating_number = 3;
 }
-
