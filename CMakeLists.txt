@@ -8,8 +8,7 @@ set(GENERATED ${CMAKE_CURRENT_BINARY_DIR}/generated)
 
 add_custom_command(
   COMMAND ${NANOPB_PROTOC} -I${CMAKE_CURRENT_SOURCE_DIR}
-  --nanopb_out=${GENERATED}
-  ${CMAKE_CURRENT_SOURCE_DIR}/simple.proto
+  --nanopb_out=${GENERATED} simple.proto
   DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/simple.proto
   OUTPUT ${GENERATED}/simple.pb.c)
 
