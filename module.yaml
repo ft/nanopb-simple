@@ -14,3 +14,7 @@ toolchains:
 
 buildtools:
   - ninja
+
+buildconfigs:
+  - debug
+  - release
